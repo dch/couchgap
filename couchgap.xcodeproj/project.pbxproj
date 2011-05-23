@@ -53,7 +53,7 @@
 		554F7C9C138A03BA007F684C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		554F7CA0138A03BA007F684C /* couchgap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "couchgap-Info.plist"; sourceTree = "<group>"; };
 		554F7CA3138A03BA007F684C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		554F7CA5138A03BA007F684C /* couchgap-Prefix.pch */ = {isa = PBXFileReference; path = "couchgap-Prefix.pch"; sourceTree = "<group>"; };
+		554F7CA5138A03BA007F684C /* couchgap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "couchgap-Prefix.pch"; sourceTree = "<group>"; };
 		554F7CA6138A03BA007F684C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		554F7CA8138A03BA007F684C /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
 		554F7CAC138A03BA007F684C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icons/icon.png; sourceTree = "<group>"; };
