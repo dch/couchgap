@@ -39,6 +39,7 @@
 		554F7CD7138A2122007F684C /* libTouchJSON-iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F7CD5138A2122007F684C /* libTouchJSON-iphoneos.a */; };
 		554F7CD8138A2122007F684C /* libTouchJSON-iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F7CD6138A2122007F684C /* libTouchJSON-iphonesimulator.a */; };
 		554F7CDB138A2186007F684C /* Couchbase.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 554F7CDA138A2186007F684C /* Couchbase.bundle */; };
+		554F7CDD138A223F007F684C /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F7CDC138A223F007F684C /* libstdc++.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		554F7CD6138A2122007F684C /* libTouchJSON-iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libTouchJSON-iphonesimulator.a"; sourceTree = "<group>"; };
 		554F7CD9138A216E007F684C /* Couchbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Couchbase.h; sourceTree = "<group>"; };
 		554F7CDA138A2186007F684C /* Couchbase.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Couchbase.bundle; sourceTree = "<group>"; };
+		554F7CDC138A223F007F684C /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/gcc/arm-apple-darwin10/4.0.1/libstdc++.dylib"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				554F7CDD138A223F007F684C /* libstdc++.dylib in Frameworks */,
 				554F7C85138A03BA007F684C /* Foundation.framework in Frameworks */,
 				554F7C87138A03BA007F684C /* UIKit.framework in Frameworks */,
 				554F7C89138A03BA007F684C /* CoreGraphics.framework in Frameworks */,
@@ -118,6 +121,7 @@
 		554F7C72138A03BA007F684C = {
 			isa = PBXGroup;
 			children = (
+				554F7CDC138A223F007F684C /* libstdc++.dylib */,
 				554F7C9E138A03BA007F684C /* couchgap */,
 				554F7C83138A03BA007F684C /* Frameworks */,
 				554F7C81138A03BA007F684C /* Products */,
@@ -387,6 +391,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SDKROOT)/usr/lib/gcc/arm-apple-darwin10/4.0.1\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -407,6 +412,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SDKROOT)/usr/lib/gcc/arm-apple-darwin10/4.0.1\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
