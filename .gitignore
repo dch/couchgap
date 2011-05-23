@@ -5,3 +5,5 @@
 *.mode1v3
 xcuserdata/
 build
+www/phonegap.
+www/phonegap.*.js
