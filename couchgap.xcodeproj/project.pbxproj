@@ -41,6 +41,7 @@
 		554F7CDB138A2186007F684C /* Couchbase.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 554F7CDA138A2186007F684C /* Couchbase.bundle */; };
 		554F7CDD138A223F007F684C /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F7CDC138A223F007F684C /* libstdc++.dylib */; };
 		554F7CDF138A2437007F684C /* Couchbase.h in Headers */ = {isa = PBXBuildFile; fileRef = 554F7CD9138A216E007F684C /* Couchbase.h */; };
+		55A8D0FE138A485000B19A5E /* www in Resources */ = {isa = PBXBuildFile; fileRef = 55A8D0FD138A485000B19A5E /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		554F7CD9138A216E007F684C /* Couchbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Couchbase.h; sourceTree = "<group>"; };
 		554F7CDA138A2186007F684C /* Couchbase.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Couchbase.bundle; sourceTree = "<group>"; };
 		554F7CDC138A223F007F684C /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/gcc/arm-apple-darwin10/4.0.1/libstdc++.dylib"; sourceTree = SDKROOT; };
+		55A8D0FD138A485000B19A5E /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +124,7 @@
 		554F7C72138A03BA007F684C = {
 			isa = PBXGroup;
 			children = (
-				554F7CDC138A223F007F684C /* libstdc++.dylib */,
+				55A8D0FD138A485000B19A5E /* www */,
 				554F7C9E138A03BA007F684C /* couchgap */,
 				554F7C83138A03BA007F684C /* Frameworks */,
 				554F7C81138A03BA007F684C /* Products */,
@@ -140,6 +142,7 @@
 		554F7C83138A03BA007F684C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				554F7CDC138A223F007F684C /* libstdc++.dylib */,
 				554F7CD5138A2122007F684C /* libTouchJSON-iphoneos.a */,
 				554F7CD6138A2122007F684C /* libTouchJSON-iphonesimulator.a */,
 				554F7CD0138A2110007F684C /* libCouchbase-iphoneos.a */,
@@ -307,6 +310,7 @@
 				554F7CBD138A03BA007F684C /* AppDelegate.h in Resources */,
 				554F7CC2138A03BA007F684C /* README in Resources */,
 				554F7CDB138A2186007F684C /* Couchbase.bundle in Resources */,
+				55A8D0FE138A485000B19A5E /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
