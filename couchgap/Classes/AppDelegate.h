@@ -13,6 +13,9 @@
 	#import "PhoneGapDelegate.h"
 #endif
 
+// include Couchbase happiness
+#import "Couchbase.h"
+
 @interface AppDelegate : PhoneGapDelegate {
 
 	NSString* invokeString;

@@ -40,6 +40,7 @@
 		554F7CD8138A2122007F684C /* libTouchJSON-iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F7CD6138A2122007F684C /* libTouchJSON-iphonesimulator.a */; };
 		554F7CDB138A2186007F684C /* Couchbase.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 554F7CDA138A2186007F684C /* Couchbase.bundle */; };
 		554F7CDD138A223F007F684C /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F7CDC138A223F007F684C /* libstdc++.dylib */; };
+		554F7CDF138A2437007F684C /* Couchbase.h in Headers */ = {isa = PBXBuildFile; fileRef = 554F7CD9138A216E007F684C /* Couchbase.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -234,11 +235,23 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		554F7CDE138A241F007F684C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554F7CDF138A2437007F684C /* Couchbase.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		554F7C7F138A03BA007F684C /* couchgap */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 554F7CC5138A03BA007F684C /* Build configuration list for PBXNativeTarget "couchgap" */;
 			buildPhases = (
+				554F7CDE138A241F007F684C /* Headers */,
 				554F7C79138A03BA007F684C /* Sources */,
 				554F7C7A138A03BA007F684C /* Frameworks */,
 				554F7C7B138A03BA007F684C /* Resources */,

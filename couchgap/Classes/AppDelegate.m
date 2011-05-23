@@ -25,6 +25,13 @@
     return [super init];
 }
 
+-(void)couchbaseDidStart:(NSURL *)serverURL {
+	/** Launch Couchbase here
+	 *  -dch
+	 **/
+    NSLog(@"Couch is ready!");
+}
+
 /**
  * This is main kick off after the app inits, the views and Settings are setup here. (preferred - iOS4 and up)
  */
@@ -39,6 +46,9 @@
 		NSLog(@"couchgap launchOptions = %@",url);
 	}
 	
+    // now that PhoneGap is ready, summon Couchbase daemon of happiness
+    [Couchbase startCouchbase:self];
+    
 	return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 
